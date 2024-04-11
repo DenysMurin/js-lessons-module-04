@@ -15,8 +15,8 @@ obj2.z = 30;
 console.log(obj1);
 
 obj1.perspective = "300px";
-console.log("obj1 с перспективой:", obj1);
-console.log("obj1 с перспективой по ссылке:", obj2);
+console.log("obj1 c перспективой:", obj1);
+console.log("obj1 c перспективой по ссылке:", obj2);
 
 // ------------но лучше так не делать, потому что массив - упорядоченная коллекция
 const arr = [1, 2, 3];
